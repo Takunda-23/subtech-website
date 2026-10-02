@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://subtech-website.eddietaqu.workers.dev/sitemap.xml
