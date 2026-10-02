@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | SubTech</title>
+    <title>Contact SubTech | Computer Support</title>
+
+    <meta name="description" content="Contact SubTech for computer repair, software installation and technical support services.">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -30,8 +32,9 @@
                 Send us a message below.
             </p>
 
-            <form>
-
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f9d4ad2f-4604-49c0-859f-fb720f0b77db">
+                <input type="hidden" name="subject" value="New message from SubTech website">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
 
